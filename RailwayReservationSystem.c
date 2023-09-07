@@ -1,4 +1,3 @@
-#include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -76,9 +75,7 @@ void main()
             // with the three argument
             // and return value
             d = cal(a1, a2, j);
-            printf("Total Bill Amount:"
-                   " %d\n",
-                   d);
+            printf("Total Bill Amount: %d\n",d);
         }; break;
         case 2: {
             strcpy(train,
